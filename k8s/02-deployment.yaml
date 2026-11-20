@@ -16,6 +16,7 @@ spec:
   template:
     metadata:
       labels:
+        app: web-app
         app.kubernetes.io/name: web-app
     spec:
       serviceAccountName: web-app
