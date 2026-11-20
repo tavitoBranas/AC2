@@ -17,7 +17,7 @@ module "eks" {
   kubernetes_version = var.kubernetes_version
   cluster_role_arn   = data.aws_iam_role.labrole.arn
   node_role_arn      = data.aws_iam_role.labrole.arn
-  subnets_ids        = module.networking.public_subnet_ids
+  subnet_ids        = module.networking.public_subnet_ids
   node_group_name    = var.node_group_name
   instance_types     = var.node_instance_types
   node_desired_size  = var.node_desired_size
