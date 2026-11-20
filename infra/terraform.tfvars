@@ -8,7 +8,7 @@ kubernetes_version  = "1.35"
 node_group_name     = "demo-node-group"
 node_instance_types = ["t3.small"]
 node_desired_size   = 2
-node_min_size       = 3
+node_min_size       = 1
 node_max_size       = 3
 
 app_name = "web-app"
