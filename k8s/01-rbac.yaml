@@ -21,7 +21,7 @@ metadata:
   name: web-app-node-reader
 subjects:
   - kind: ServiceAccount
-    namespace: default
+    namespace: web-app
     name: web-app
 roleRef:
   apiGroup: rbac.authorization.k8s.io
