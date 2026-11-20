@@ -41,5 +41,5 @@ module "alb_controller" {
 
 module "ecr" {
   source = "./modules/ecr"
-  name     = var.app_name
+  name   = var.app_name
 }
